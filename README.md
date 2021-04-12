@@ -1,12 +1,15 @@
-for PXT/microbit
+# ir
 
-how do i ir??????
+這是專為測試用的micro:bit積木
 
-for using an ir receiver PXT on the microbit
+## License
 
+MIT
 
-known issues:
+## Supported targets
 
- - it is a little slow sometimes
- 
- - press and hold does not work (yet)
+* for PXT/microbit
+(The metadata above is needed for package search.)
+
+```package
+ir=github:food22/fff
