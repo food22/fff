@@ -2,6 +2,8 @@
 #include <map>
 #include <vector>
 #include "ReceiverIR.h"
+#include "MicroBit.h"
+
 using namespace pxt;
 typedef vector<Action> vA;
 
