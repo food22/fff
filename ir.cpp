@@ -4,6 +4,8 @@
 #include "ReceiverIR.h"
 #include "MicroBit.h"
 
+MicroBit    uBit
+
 using namespace pxt;
 typedef vector<Action> vA;
 
@@ -75,7 +77,7 @@ namespace IR {
 
   //%
   void init(Pins pin){
-    Microbit.display.scroll("Stored!");
+    ubit.display.scroll("Stored!");
   }
 
   //% 
